@@ -1,0 +1,8 @@
+def myFunc(n):
+    myDict={}
+    for i in range(1,n+1):
+        myDict[i]=i*i*i
+    return myDict
+    
+print(myFunc(5))
+        
