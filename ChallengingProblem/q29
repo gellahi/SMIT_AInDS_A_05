@@ -1,0 +1,11 @@
+numDict={'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5, 'f': 6, 'g': 7, 'h': 8, 'i': 9, 'j': 10 }
+evenDict={}
+oddDict={}
+for i,j in numDict.items():
+    if j % 2 == 0:
+        evenDict[i]=j
+    else:
+        oddDict[i]=j
+        
+print("Even Dict: ",evenDict)
+print("Odd Dict: ",oddDict)
