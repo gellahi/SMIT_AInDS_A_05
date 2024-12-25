@@ -1,0 +1,12 @@
+dict1 = {'a': 5, 'b': 10}
+dict2 = {'a': 3, 'b': 7}
+addDict={}
+for i in dict1:
+    if i in dict2:
+        addDict[i]=dict1[i]+dict2[i]
+
+if addDict:
+    print(addDict)
+else:
+    print("No Matching Keys to be added")
+        
