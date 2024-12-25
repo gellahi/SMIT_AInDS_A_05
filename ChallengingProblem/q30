@@ -1,0 +1,4 @@
+myDict={'a': 1, 'b': 2, 'c': 3, 'd': 4}
+filteredDict={key: value for key, value in myDict.items() if value<3}
+print(filteredDict)
+        
