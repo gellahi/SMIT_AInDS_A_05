@@ -1,0 +1,7 @@
+myDict={'a': {'b': 1, 'c': 2}, 'd': {'e': 3, 'f': 4}}
+flattenDict={}
+for i,j in myDict.items():
+    for k,l in j.items():
+        flattenDict[k]=l
+        
+print(flattenDict)
