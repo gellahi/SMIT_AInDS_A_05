@@ -1,0 +1,16 @@
+
+def myFunc(myDict,key):
+    if key in myDict.keys():
+        return myDict[key]
+    return "Key Not Found!"
+    
+myDict={
+    "Name":"John",
+    "Age":30,
+    "Address":{
+        "Street":"123 Elm St",
+        "City":"Boston"
+    }
+}
+
+print(myFunc(myDict,"Street"))
