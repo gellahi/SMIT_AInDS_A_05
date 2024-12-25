@@ -1,0 +1,7 @@
+myDict={'a': 10, 'b': 15, 'c': 7}
+maxKeyVal=next(iter(myDict))
+for i in myDict:
+    if myDict[i] > myDict[maxKeyVal]:
+        maxKeyVal=i
+
+print(maxKeyVal)
