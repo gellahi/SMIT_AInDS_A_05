@@ -1,0 +1,5 @@
+numDict={}
+for i in range(1,6):
+    numDict[i]=i*i
+    
+print(numDict)
