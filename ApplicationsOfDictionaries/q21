@@ -1,0 +1,10 @@
+myStr="hello world hello python world"
+countDict={}
+for i in myStr:
+    if i in countDict:
+        count=countDict[i]
+        countDict[i]=count+1    
+    else:
+        countDict[i]=1
+print(countDict)
+    
