@@ -1,0 +1,9 @@
+myDict={'a': 10, 'b': 15, 'c': 10, 'd': 15}
+uniqueDict={}
+seened=set()
+for i,j in myDict.items():
+    if j not in seened:
+        uniqueDict[i]=j
+        seened.add(j)
+print(uniqueDict)
+    
